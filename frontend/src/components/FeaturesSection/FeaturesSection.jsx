@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaUsers, FaChartLine, FaShieldAlt, FaHandshake } from 'react-icons/fa';
+import './_responsive.scss';
 import './FeaturesSection.scss';
 
 const FeaturesSection = () => {

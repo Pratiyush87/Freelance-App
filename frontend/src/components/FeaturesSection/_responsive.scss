@@ -1,0 +1,29 @@
+// _responsive.scss
+@media (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding: 1rem;
+  }
+}
