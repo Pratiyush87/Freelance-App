@@ -14,7 +14,7 @@ const BusinessHero = () => {
           </p>
           <div className="cta-buttons">
             <button className="btn btn-primary"><Link className="link" to="/add">
-                                  Add New Gig
+                                  Add New Gigs
                                 </Link></button>
             <button className="btn btn-outline">Browse Freelancers</button>
           </div>
